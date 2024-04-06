@@ -1,0 +1,26 @@
+@media (min-width: 356px) {
+	///// W ABOUT US ZNIEJSZYC MARGINESY I BEDIE GIT
+	
+
+
+	
+}
+
+@media (max-width: 356px) {
+	
+	section {
+		.ourapp {
+			&__gradient {
+				.ourapp__text-box {
+					h3 {
+						.ourapp__main-text {
+						}
+					}
+
+					.ourapp__text {
+					}
+				}
+			}
+		}
+	}
+}

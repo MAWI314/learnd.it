@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+	.history {
+		.history__img-box {
+			.history__img {
+				width: 90vw;
+			}
+		}
+	}
+
+	.ourapp {
+		&__gradient {
+			.ourapp__img-box {
+				.ourapp__img {
+					width: 90vw;
+				}
+			}
+		}
+	}
+
+	
+
+	
+}

@@ -1,0 +1,20 @@
+@media (min-width: 768px) {
+	.header {
+		.container {
+			// width: auto;
+			&__main-text {
+				// width: fit-content;
+			}
+		}
+	}
+	section {
+		.ourapp {
+			&__gradient {
+				// width: auto;
+			}
+			&__text-box{
+				margin: 6em;
+			}
+		}
+	}
+}

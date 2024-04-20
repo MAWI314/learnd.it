@@ -1,0 +1,817 @@
+// @media (max-width: 415px) {
+// 	.header {
+// 		.container {
+// 			&__main-text {
+// 				margin-top: -0.5em;
+// 				transform: scale(80%);
+// 				h2 {
+// 				}
+// 				.container__text {
+// 					transform: scale(80%);
+// 				}
+// 				.container__btn {
+// 					transform: scale(90%);
+// 					margin-left: -8em;
+// 				}
+// 			}
+// 			.container__img {
+// 				margin-top: -4.5em;
+// 				transform: scale(80%);
+// 			}
+// 		}
+// 	}
+
+// 	.main {
+// 		.aboutus {
+// 			&__text-box {
+// 				margin-bottom: 0;
+// 				p {
+// 					transform: scale(80%);
+// 				}
+// 			}
+// 			&__main-text {
+// 				transform: scale(90%);
+// 			}
+// 			&__underline {
+// 				width: 60px;
+// 			}
+// 			&__text {
+// 			}
+
+// 			&__icons-box {
+// 				margin-top: -3em;
+// 				transform: scale(80%);
+// 				.aboutus__icon {
+// 					img {
+// 					}
+// 				}
+// 			}
+// 			&__icon {
+// 			}
+// 		}
+// 	}
+// 	//////OURAPP section
+// 	///
+// 	section {
+// 		.ourapp {
+// 			&__gradient {
+// 				.ourapp__img-box {
+// 					margin-top: -14em;
+// 					transform: scale(70%);
+// 					.ourapp__img {
+// 					}
+// 				}
+// 				.ourapp__text-box {
+// 					margin-top: -4em;
+// 					transform: scale(80%);
+
+// 					.nb {
+// 						&-one {
+// 						}
+
+// 						&-two {
+// 						}
+// 						&-three {
+// 						}
+// 					}
+
+// 					h3 {
+// 					}
+// 					.ourapp__text {
+// 					}
+
+// 					.ourapp__list {
+// 						span {
+// 						}
+// 					}
+
+// 					.ourapp__list {
+// 						&-three {
+// 							span {
+// 							}
+// 						}
+// 					}
+
+// 					.fa-solid {
+// 						&-one {
+// 						}
+// 						&-two {
+// 						}
+// 						&-three {
+// 						}
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+
+// 	///////history
+// 	///
+
+// 	.history {
+// 		margin-top: -8em;
+// 		margin-bottom: -6em;
+// 		&__text {
+// 			transform: scale(90%);
+// 			&-box {
+// 				.history__text-text {
+// 					transform: scale(90%);
+// 				}
+// 			}
+
+// 			&-main {
+// 				transform: scale(90%);
+// 			}
+// 			&-underline {
+// 			}
+
+// 			.history__img-box {
+// 				transform: scale(80%);
+
+// 				.history__img {
+// 				}
+// 			}
+// 		}
+// 	}
+
+// 	.team {
+// 		&__text {
+// 			transform: scale(90%);
+
+// 			&-main {
+// 				transform: scale(90%);
+// 			}
+// 			&-underline {
+// 			}
+// 			&-text {
+// 				transform: scale(90%);
+// 			}
+// 		}
+
+// 		&__boxes {
+// 			margin-top: -8em;
+// 			margin-bottom: -20em;
+// 			transform: scale(80%);
+
+// 			.team__box {
+// 				&-text {
+// 					p {
+// 					}
+// 				}
+
+// 				&-name {
+// 				}
+
+// 				&-img {
+// 					img {
+// 					}
+// 					&--icons {
+// 						img {
+// 						}
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+
+// 	.footer {
+// 		.line {
+// 		}
+
+// 		&__bottom-text {
+// 		}
+
+// 		&__boxes {
+// 			.footer__box {
+// 				transform: scale(80%);
+
+// 				&-name {
+// 				}
+
+// 				&-text {
+// 					.icons {
+// 						img {
+// 						}
+// 					}
+// 				}
+
+// 				&-one {
+// 					.footer__box-name {
+// 					}
+// 					.footer__box-text {
+// 					}
+// 				}
+// 				&-two {
+// 					.footer__box-name {
+// 					}
+// 					.footer__box-text {
+// 					}
+// 				}
+// 				&-three {
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+
+@media (max-width: 380px) {
+	.navigation-box {
+		height: 55px;
+		.navigation {
+			height: 55px;
+			.burger-btn {
+				transform: scale(70%);
+				margin: 0;
+				padding: 0;
+				padding-right: 2em;
+				margin-top: -0.7em;
+			}
+
+			.company-name {
+				a {
+					font-size: 0.8rem;
+				}
+
+				.name {
+				}
+				.icons {
+					a {
+						img {
+						}
+					}
+				}
+				.line {
+				}
+			}
+			.nav {
+				&-mobile {
+					.name {
+						margin-top: 1em;
+						font-size: 1.8rem;
+					}
+
+					.icons {
+						img {
+							width: 30px;
+						}
+					}
+
+					.nav__link {
+						font-size: 1.8rem;
+						&--four {
+							width: 150px;
+							height: 40px;
+						}
+					}
+
+					&--active {
+					}
+				}
+			}
+		}
+	}
+	.header {
+		.container {
+			width: 80vw;
+			&__main-text {
+				margin-top: -1em;
+				transform: scale(70%);
+				h2 {
+				}
+				.container__text {
+					width: 500px;
+					font-size: 1.8rem;
+					transform: scale(70%);
+				}
+				.container__btn {
+					transform: scale(80%);
+					margin-left: -7em;
+					font-size: 1.5rem;
+					margin-top: 0.8em;
+				}
+			}
+			.container__img {
+				margin-top: -8em;
+				margin-bottom: -4em;
+				transform: scale(70%);
+			}
+		}
+	}
+
+	.main {
+		margin-top: -3em;
+		margin-bottom: -8em;
+		.aboutus {
+			&__text-box {
+				margin-bottom: 0;
+
+				p {
+					transform: scale(70%);
+				}
+			}
+			&__main-text {
+				font-size: 2.3rem;
+				transform: scale(80%);
+			}
+			&__underline {
+				width: 60px;
+			}
+			&__text {
+				margin-top: 0.5em;
+			}
+
+			&__icons-box {
+				margin-top: -5em;
+				transform: scale(70%);
+				.aboutus__icon {
+					img {
+					}
+				}
+			}
+			&__icon {
+			}
+		}
+	}
+	//////OURAPP section
+	///
+	section {
+		.ourapp {
+			margin-top: -6em;
+			&__gradient {
+				width: 80vw;
+				.ourapp__img-box {
+					margin-top: -14em;
+					transform: scale(70%);
+					margin-bottom: -7em;
+					.ourapp__img {
+					}
+				}
+				.ourapp__text-box {
+					margin-top: -8em;
+					transform: scale(70%);
+
+					.nb {
+						&-one {
+						}
+
+						&-two {
+						}
+						&-three {
+						}
+					}
+
+					h3 {
+					}
+					.ourapp__text {
+					}
+
+					.ourapp__list {
+						span {
+						}
+					}
+
+					.ourapp__list {
+						&-three {
+							span {
+							}
+						}
+					}
+
+					.fa-solid {
+						&-one {
+						}
+						&-two {
+						}
+						&-three {
+						}
+					}
+				}
+			}
+		}
+	}
+
+	///////history
+	///
+
+	.history {
+		margin-top: -3em;
+		margin-bottom: 4em;
+		&__text {
+			transform: scale(80%);
+
+			&-box {
+				.history__text-text {
+					margin-top: -1em;
+					transform: scale(80%);
+				}
+			}
+
+			&-main {
+				transform: scale(80%);
+			}
+			&-underline {
+			}
+
+			.history__img-box {
+				margin-top: 0;
+				transform: scale(85%);
+
+				.history__img {
+				}
+			}
+		}
+	}
+
+	.team {
+		margin-top: -6em;
+		&__text {
+			transform: scale(80%);
+
+			&-main {
+				transform: scale(80%);
+			}
+			&-underline {
+			}
+			&-text {
+				transform: scale(80%);
+			}
+		}
+
+		&__boxes {
+			margin-top: -25em;
+			margin-bottom: -20em;
+			transform: scale(60%);
+
+			.team__box {
+				&-text {
+					p {
+					}
+				}
+
+				&-name {
+				}
+
+				&-img {
+					img {
+					}
+					&--icons {
+						img {
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.footer {
+		margin-top: -4em;
+		.line {
+		}
+
+		&__bottom-text {
+		}
+
+		&__boxes {
+			.footer__box {
+				transform: scale(70%);
+
+				&-name {
+				}
+
+				&-text {
+					.icons {
+						img {
+						}
+					}
+				}
+
+				&-one {
+					margin-left: -4.5em;
+					margin-bottom: -1.5em;
+
+					.footer__box-name {
+					}
+					.footer__box-text {
+					}
+				}
+				&-two {
+					margin-bottom: -1.5em;
+					margin-left: -5em;
+					.footer__box-name {
+					}
+					.footer__box-text {
+					}
+				}
+				&-three {
+					margin-left: -3em;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 290px) {
+	.navigation-box {
+		height: 55px;
+		.navigation {
+			height: 55px;
+			.burger-btn {
+				transform: scale(70%);
+				margin: 0;
+				padding: 0;
+				padding-right: 2em;
+				margin-top: -0.7em;
+			}
+
+			.company-name {
+				a {
+					font-size: 0.8rem;
+				}
+
+				.name {
+				}
+				.icons {
+					a {
+						img {
+						}
+					}
+				}
+				.line {
+				}
+			}
+			.nav {
+				&-mobile {
+					.name {
+						margin-top: 1em;
+						font-size: 1.8rem;
+					}
+
+					.icons {
+						img {
+							width: 30px;
+						}
+					}
+
+					.nav__link {
+						font-size: 1.8rem;
+						&--four {
+							width: 150px;
+							height: 40px;
+						}
+					}
+
+					&--active {
+					}
+				}
+			}
+		}
+	}
+	.header {
+		.container {
+			
+			&__main-text {
+				margin-top: -1em;
+				transform: scale(65%);
+
+				width: 300px;
+				h2 {
+					font-size: 2.3rem;
+				}
+				.container__text {
+					font-size: 1.3rem;
+					margin-top: 1em;
+					margin-bottom: 1em;
+					width: 390px;
+					margin-left: -3.5em;
+					transform: scale(90%);
+				}
+				.container__btn {
+					transform: scale(80%);
+					margin-left: -6.5em;
+				}
+			}
+			.container__img {
+				margin-bottom: -6em;
+			}
+		}
+	}
+
+	.main {
+		margin-bottom: 0;
+		.aboutus {
+			&__text-box {
+				margin-bottom: 0;
+
+				p {
+					transform: scale(70%);
+				}
+			}
+			&__main-text {
+				transform: scale(80%);
+			}
+			&__underline {
+				width: 60px;
+			}
+			&__text {
+			}
+
+			&__icons-box {
+				margin-top: -5em;
+				transform: scale(70%);
+				.aboutus__icon {
+					img {
+					}
+				}
+			}
+			&__icon {
+			}
+		}
+	}
+	//////OURAPP section
+	///
+	section {
+		.ourapp {
+			margin-top: -10em;
+			&__gradient {
+				margin-top: -7em;
+				.ourapp__img-box {
+					transform: scale(65%);
+					margin-top: -18em;
+					margin-bottom: -8em;
+
+					.ourapp__img {
+					}
+				}
+				.ourapp__text-box {
+					margin-top: -10em;
+					transform: scale(65%);
+
+					.nb {
+						&-one {
+						}
+
+						&-two {
+						}
+						&-three {
+						}
+					}
+
+					h3 {
+					}
+					.ourapp__text {
+					}
+
+					.ourapp__list {
+						span {
+						}
+					}
+
+					.ourapp__list {
+						&-three {
+							span {
+							}
+						}
+					}
+
+					.fa-solid {
+						&-one {
+						}
+						&-two {
+						}
+						&-three {
+						}
+					}
+				}
+			}
+		}
+	}
+
+	///////history
+	///
+
+	.history {
+		margin-top: -8em;
+		margin-bottom: -6em;
+		&__text {
+			transform: scale(80%);
+			&-box {
+				margin-top: 2em;
+				.history__text-text {
+					margin-top: -1em;
+					transform: scale(80%);
+				}
+			}
+
+			&-main {
+				transform: scale(80%);
+			}
+			&-underline {
+			}
+
+			.history__img-box {
+				transform: scale(70%);
+
+				.history__img {
+					margin-top: -2em;
+				}
+			}
+		}
+	}
+
+	.team {
+		margin-top: -6em;
+
+		&__text {
+			transform: scale(80%);
+
+			&-main {
+				width: 300px;
+				font-size: 2.8rem;
+				transform: scale(80%);
+			}
+			&-underline {
+			}
+			&-text {
+				transform: scale(80%);
+			}
+		}
+
+		&__boxes {
+			margin-top: -22em;
+			margin-bottom: -20em;
+			transform: scale(60%);
+			margin-right: 8em;
+
+			.team__box {
+				&-three {
+					margin-left: 0;
+				}
+
+				&-text {
+					p {
+					}
+				}
+
+				&-name {
+				}
+
+				&-img {
+					width: 100px;
+
+					img {
+					}
+					&--icons {
+						img {
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.footer {
+		margin-top: -4em;
+		.line {
+		}
+
+		&__bottom-text {
+		}
+
+		&__boxes {
+			.footer__box {
+				transform: scale(70%);
+
+				&-name {
+				}
+
+				&-text {
+					.icons {
+						img {
+						}
+					}
+				}
+
+				&-one {
+					margin-left: -5em;
+					margin-bottom: -1.5em;
+
+					.footer__box-name {
+					}
+					.footer__box-text {
+					}
+				}
+				&-two {
+					margin-bottom: -1.5em;
+					margin-left: -4em;
+					.footer__box-name {
+					}
+					.footer__box-text {
+					}
+				}
+				&-three {
+					margin-left: -2.5em;
+				}
+			}
+		}
+	}
+}

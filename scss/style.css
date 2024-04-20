@@ -207,7 +207,7 @@ body {
   position: relative;
   height: auto;
   max-width: 480px;
-  width: 80vw;
+  width: 100vw;
   border-radius: 20px;
   display: flex;
   align-items: center;

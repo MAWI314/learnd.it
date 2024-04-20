@@ -398,7 +398,7 @@ section .ourapp__gradient .ourapp__text-box .ourapp__list {
 section .ourapp__gradient .ourapp__text-box .ourapp__list span {
   margin-left: 0.5em;
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 700;
   transform: scale(80%);
   width: 250px;
 }

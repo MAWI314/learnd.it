@@ -324,7 +324,7 @@ body {
   margin-left: 50%;
   transform: translateX(-50%);
   width: 85px;
-  height: 3px;
+  height: 2px;
   background: rgb(0, 238, 174);
   background: linear-gradient(90deg, rgb(0, 238, 174) 0%, rgb(129, 53, 255) 100%);
 }
@@ -510,7 +510,7 @@ section .ourapp__gradient .ourapp__text-box .fa-solid-three {
 }
 .history__text-underline {
   width: 75px;
-  height: 3px;
+  height: 2px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -554,7 +554,7 @@ section .ourapp__gradient .ourapp__text-box .fa-solid-three {
 }
 .team__text-underline {
   width: 90px;
-  height: 3px;
+  height: 2px;
   background: rgb(0, 238, 174);
   background: linear-gradient(90deg, rgb(0, 238, 174) 0%, rgb(129, 53, 255) 100%);
 }

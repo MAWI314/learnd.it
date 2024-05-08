@@ -1491,4 +1491,11 @@ section .ourapp__gradient .ourapp__text-box .fa-solid-three {
   .navigation .company-name .name {
     margin-left: 3em;
   }
-}/*# sourceMappingURL=style.css.map */
+
+  
+}
+
+@media (min-width: 1400px) {
+	.header {
+		.container {
+			max-width: 1450px;}}}/*# sourceMappingURL=style.css.map */
